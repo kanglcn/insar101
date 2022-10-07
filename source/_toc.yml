@@ -2,7 +2,12 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
-chapters:
-- file: markdown
-- file: notebooks
+root: index
+parts：
+  - caption: SAR 成像系统
+    chapters:
+    - file: SAR/imaging_system
+    - file: SAR/geometry
+  - caption: InSAR
+    chapters:
+    - file: InSAR/geocoding
