@@ -1,0 +1,14 @@
+# Documentation
+_build
+
+# VS Code
+.vscode
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Data files
+*.xml
