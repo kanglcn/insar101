@@ -1,7 +1,7 @@
 # InSAR 教程
 
 [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://kanglcn.github.io/seismology101/)
-[![Deploy](https://github.com/seismo-learn/seismology101/actions/workflows/deploy.yml/badge.svg)](https://github.com/kanglcn/insar101/actions/workflows/deploy.yml)
+[![Deploy](https://github.com/kanglcn/insar101/actions/workflows/deploy.yml/badge.svg)](https://github.com/kanglcn/insar101/actions/workflows/deploy.yml)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)
 
 本教程主要面向 InSAR 新手，包括需要使用 InSAR 技术的高年级本科生，低年级研究生以及其他需要使用到 InSAR 技术的研究人员和技术人员。
@@ -31,7 +31,6 @@
 ## 文档维护
 
 本文档尚有很多不完善之处，欢迎读者参与到文档的维护与更新中。
-详情见[贡献指南](https://seismo-learn.org/contributing/)。
 
 ## 许可协议
 
