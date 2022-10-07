@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Welcome to your Jupyter Book &#8212; Introduction to InSAR</title>
+    <title>InSAR 教程 &#8212; Introduction to InSAR</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -108,7 +108,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    Welcome to your Jupyter Book
+                    InSAR 教程
                 </a>
             </li>
         </ul>
@@ -278,23 +278,70 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id1">
+   文档维护
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+   许可协议
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Welcome to your Jupyter Book</h1>
+                <h1>InSAR 教程</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id1">
+   文档维护
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+   许可协议
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -302,19 +349,47 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-your-jupyter-book">
-<h1>Welcome to your Jupyter Book<a class="headerlink" href="#welcome-to-your-jupyter-book" title="Permalink to this headline">#</a></h1>
-<p>This is a small sample book to give you a feel for how book content is
-structured.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Here is a note!</p>
-</div>
-<p>And here is a code block:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">e</span> <span class="o">=</span> <span class="n">mc</span><span class="o">^</span><span class="mi">2</span>
-</pre></div>
-</div>
-<p>Check out the content pages bundled with this sample book to see more.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="insar">
+<h1>InSAR 教程<a class="headerlink" href="#insar" title="Permalink to this headline">#</a></h1>
+<p><a class="reference external" href="https://seismo-learn.org/seismology101/"><img alt="Jupyter Book Badge" src="https://jupyterbook.org/badge.svg" /></a>
+<a class="reference external" href="https://github.com/seismo-learn/seismology101/actions/workflows/deploy.yml"><img alt="Deploy" src="https://github.com/seismo-learn/seismology101/actions/workflows/deploy.yml/badge.svg" /></a>
+<a class="reference external" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh"><img alt="License: CC BY-NC 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue.svg" /></a></p>
+<p>本教程主要面向 InSAR 新手，包括需要使用 InSAR 技术的高年级本科生，低年级研究生以及其他需要使用到 InSAR 技术的研究人员和技术人员。</p>
+<p>本教程主要讲述 InSAR 测量的一般原理。包括：</p>
+<ul class="simple">
+<li><p>SAR 成像一般原理；</p></li>
+<li><p>InSAR 成像的步骤与测量的一般原理；</p></li>
+<li><p>InSAR 数据处理的方法。</p></li>
+</ul>
+<p>本教程需要读者有一般高等教育理工科要求的数理基础，包括：</p>
+<ul class="simple">
+<li><p>数学： 微积分，线性代数，概率论与数理统计；</p></li>
+<li><p>物理： 普通物理中关于电磁波及其散射特性的知识；</p></li>
+<li><p>信号处理： 模拟与数字信号处理的相关知识。</p></li>
+</ul>
+<p>如果读者有以下知识那就更好了：</p>
+<ul class="simple">
+<li><p>数学： 偏微分方程，随机过程；</p></li>
+<li><p>物理： 电动力学；</p></li>
+<li><p>信号处理： 数字图像处理，统计信号处理；</p></li>
+<li><p>其他基本的地球物理，地理信息系统，测绘的知识。</p></li>
+<li><p>教程主页：<a class="reference external" href="https://seismo-learn.org/seismology101/">https://seismo-learn.org/seismology101/</a></p></li>
+<li><p>教程源码：<a class="reference external" href="https://github.com/seismo-learn/seismology101">https://github.com/seismo-learn/seismology101</a></p></li>
+</ul>
+<section id="id1">
+<h2>文档维护<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h2>
+<p>本文档尚有很多不完善之处，欢迎读者参与到文档的维护与更新中。
+详情见<a class="reference external" href="https://seismo-learn.org/contributing/">贡献指南</a>。</p>
+</section>
+<section id="id2">
+<h2>许可协议<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h2>
+<p>本作品采用 <a class="reference external" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh">知识共享署名-非商业性使用 4.0 国际许可协议 (CC BY-NC 4.0)</a> 。
+任何人都可以自由地分享、修改本作品，但必须遵循如下条件：</p>
+<ul class="simple">
+<li><p>署名：必须提到原作者，提供指向此许可协议的链接，表明是否有做修改</p></li>
+<li><p>非商业性使用：不能对本作品进行任何形式的商业性使用</p></li>
+</ul>
+</section>
 <div class="toctree-wrapper compound">
 </div>
 </section>
