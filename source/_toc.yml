@@ -3,7 +3,7 @@
 
 format: jb-book
 root: index
-parts：
+parts:
   - caption: SAR 成像系统
     chapters:
     - file: SAR/imaging_system
