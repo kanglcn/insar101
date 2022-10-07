@@ -1,10 +1,7 @@
-# InSAR 教程
+# InSAR 笔记
 
-[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://seismo-learn.org/seismology101/)
-[![Deploy](https://github.com/seismo-learn/seismology101/actions/workflows/deploy.yml/badge.svg)](https://github.com/seismo-learn/seismology101/actions/workflows/deploy.yml)
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)
-
-本教程主要面向 InSAR 新手，包括需要使用 InSAR 技术的高年级本科生，低年级研究生以及其他需要使用到 InSAR 技术的研究人员和技术人员。
+本网页记录了作者在学习，使用和研究 InSAR 技术时对于 InSAR 的一些理解。
+<!-- 本教程主要面向 InSAR 新手，包括需要使用 InSAR 技术的高年级本科生，低年级研究生以及其他需要使用到 InSAR 技术的研究人员和技术人员。
 
 本教程主要讲述 InSAR 测量的一般原理。包括：
 
@@ -23,15 +20,14 @@
 - 数学： 偏微分方程，随机过程；
 - 物理： 电动力学；
 - 信号处理： 数字图像处理，统计信号处理；
-- 其他基本的地球物理，地理信息系统，测绘的知识。
+- 其他基本的地球物理，地理信息系统，测绘的知识。 -->
 
-- 教程主页：https://seismo-learn.org/seismology101/
-- 教程源码：https://github.com/seismo-learn/seismology101
+- 文档主页：<https://kanglcn.github.io/insar101>
+- 文档源码：<https://github.com/kanglcn/insar101>
 
 ## 文档维护
 
 本文档尚有很多不完善之处，欢迎读者参与到文档的维护与更新中。
-详情见[贡献指南](https://seismo-learn.org/contributing/)。
 
 ## 许可协议
 
