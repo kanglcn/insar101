@@ -33,7 +33,7 @@ format:
   html:
     code-fold: true
     theme: cosmo
-    fontsize: 17px
+    fontsize: 1rem
 
 execute:
   freeze: auto
