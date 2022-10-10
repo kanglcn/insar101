@@ -1,7 +1,6 @@
 # InSAR 笔记
 
-[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://kanglcn.github.io/insar101/)
-[![Deploy](https://github.com/kanglcn/insar101/actions/workflows/deploy.yml/badge.svg)](https://github.com/kanglcn/insar101/actions/workflows/deploy.yml)
+[![Deploy](https://github.com/kanglcn/insar101/actions/workflows/deploy.yml/badge.svg)](https://github.com/kanglcn/insar101/actions/workflows/publish.yml)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)
 
 本网页记录了作者在学习，使用和研究 InSAR 技术时对于 InSAR 的一些理解。

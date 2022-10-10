@@ -12,7 +12,8 @@ book:
     - part: SAR/index.qmd
       chapters: 
         - SAR/imaging_system.qmd
-        - SAR/geometry.qmd
+        - ./SAR/geometry.qmd
+        - ./SAR/SAR_pulse_response.ipynb
     - part: InSAR/index.qmd
       chapters:
         - InSAR/geocoding.qmd
@@ -30,7 +31,9 @@ bibliography: references.bib
 
 format:
   html:
+    code-fold: true
     theme: cosmo
+    fontsize: 17px
 
 execute:
   freeze: auto
