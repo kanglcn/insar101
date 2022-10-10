@@ -1,0 +1,39 @@
+project:
+  type: book
+
+book:
+  title: "InSAR 笔记"
+  author: "Kang Liang"
+  logo: cover.png
+
+  chapters:
+    - index.qmd
+    - preface.qmd
+    - part: SAR/index.qmd
+      chapters: 
+        - SAR/imaging_system.qmd
+        - SAR/geometry.qmd
+    - part: InSAR/index.qmd
+      chapters:
+        - InSAR/geocoding.qmd
+    - references.qmd
+
+  sidebar:
+    border: true
+  repo-url: https://github.com/kanglcn/insar101
+  repo-actions: [edit, issue]
+  page-footer:
+    border: true
+    center: "Copyright 2022, Kang Liang. All right reserved."
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+
+execute:
+  freeze: auto
+
+
+

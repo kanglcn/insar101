@@ -1,8 +1,8 @@
 # Documentation
-_build
+_book
 
-# VS Code
-.vscode
+# tmp file
+.quarto
 
 # Jupyter Notebook
 .ipynb_checkpoints/
@@ -10,5 +10,5 @@ _build
 # macOS
 .DS_Store
 
-# Data files
-*.xml
+
+/.quarto/
