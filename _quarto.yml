@@ -17,23 +17,36 @@ book:
     - part: InSAR/index.qmd
       chapters:
         - InSAR/geocoding.qmd
+    - text: "---"
     - references.qmd
 
   sidebar:
     border: true
   repo-url: https://github.com/kanglcn/insar101
-  repo-actions: [edit, issue]
+  repo-actions: [edit, issue, source]
   page-footer:
     border: true
     center: "Copyright 2022, Kang Liang. All right reserved."
+    background: "#f8f9fa"
+
 
 bibliography: references.bib
 
 format:
   html:
-    code-fold: true
-    theme: cosmo
-    fontsize: 1rem
+    theme:
+      light: [default, custom.scss]
+    fontsize: "16px"
+    linestretch: 1.6
+    mainfont: "Roboto"
+    smooth-scroll: true
+    toc-depth: 4
+    code-link: true
+    code-tools:
+      toggle: true
+    code-fold: false
+    highlight-style: printing
+    code-block-bg: true
 
 execute:
   freeze: auto
