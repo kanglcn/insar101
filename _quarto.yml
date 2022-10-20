@@ -26,8 +26,8 @@ book:
   repo-actions: [edit, issue, source]
   page-footer:
     border: true
-    center: "Copyright 2022, Kang Liang. All right reserved."
-    background: "#f8f9fa"
+    center: "Copyright 2022, Kang Liang. All rights reserved."
+    background: light
 
 
 bibliography: references.bib
