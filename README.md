@@ -1,11 +1,11 @@
 # InSAR 笔记
 
-[![Deploy](https://github.com/kanglcn/insar101/actions/workflows/deploy.yml/badge.svg)](https://github.com/kanglcn/insar101/actions/workflows/publish.yml)
+[![Deploy](https://github.com/kanglcn/insar101/actions/workflows/publish.yml/badge.svg)](https://github.com/kanglcn/insar101/actions/workflows/publish.yml)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)
 
 本网页记录了作者在学习，使用和研究 InSAR 技术时对于 InSAR 的一些理解。
 
-- 文档主页：<https://kanglcn.github.io/insar101>
+- 文档主页：<https://insarkl.com/insar101>
 - 文档源码：<https://github.com/kanglcn/insar101>
 
 ## 文档维护
