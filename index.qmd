@@ -23,7 +23,7 @@
 - 信号处理： 数字图像处理，统计信号处理；
 - 其他基本的地球物理，地理信息系统，测绘的知识。 -->
 
-- 文档主页：<https://kanglcn.github.io/insar101>
+- 文档主页：<https://insarkl.com/insar101>
 - 文档源码：<https://github.com/kanglcn/insar101>
 
 ## 文档维护

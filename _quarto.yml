@@ -22,14 +22,16 @@ book:
 
   sidebar:
     border: true
-  repo-url: https://github.smu.edu/pages/48350618/insar101
+  repo-url: https://insarkl.com/insar101
   repo-actions: [edit, issue, source]
   page-footer:
     border: true
     center: "Copyright 2022, Kang Liang. All rights reserved."
     background: light
 
-
+  comments:
+    giscus:
+      repo: kanglcn/insar101
 bibliography: references.bib
 
 format:
