@@ -9,6 +9,9 @@ book:
   chapters:
     - index.qmd
     - preface.qmd
+    - part: basic/index.qmd
+      chapters: 
+              - basic/time.qmd
     - part: SAR/index.qmd
       chapters: 
         - SAR/imaging_system.qmd
@@ -34,6 +37,9 @@ book:
     giscus:
       repo: kanglcn/insar101
 bibliography: references.bib
+reference-location: margin
+citation-location: margin
+
 
 format:
   html:
