@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>InSAR 笔记 - SAR 成像系统</title>
+<title>InSAR 笔记 - 1&nbsp; 计时</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,8 +93,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../SAR/imaging_system.html" rel="next">
-<link href="../basic/time.html" rel="prev">
+<link href="../SAR/index.html" rel="next">
+<link href="../basic/index.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -125,16 +125,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">SAR 成像系统</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">计时</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -183,14 +184,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../basic/time.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">计时</span></a>
+  <a href="../basic/time.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">计时</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../SAR/index.html" class="sidebar-item-text sidebar-link active">SAR 成像系统</a>
+            <a href="../SAR/index.html" class="sidebar-item-text sidebar-link">SAR 成像系统</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -239,14 +240,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#国际原子时" id="toc-国际原子时" class="nav-link active" data-scroll-target="#国际原子时"><span class="toc-section-number">1.1</span>  国际原子时</a></li>
+  <li><a href="#世界时" id="toc-世界时" class="nav-link" data-scroll-target="#世界时"><span class="toc-section-number">1.2</span>  世界时</a></li>
+  <li><a href="#协调世界时" id="toc-协调世界时" class="nav-link" data-scroll-target="#协调世界时"><span class="toc-section-number">1.3</span>  协调世界时</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/kanglcn/insar101/edit/main/basic/time.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/kanglcn/insar101/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/kanglcn/insar101/blob/main/basic/time.qmd" class="toc-action">View source</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title d-none d-lg-block">SAR 成像系统</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">计时</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -260,9 +269,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
+<p>这里介绍了时间标准。</p>
+<section id="国际原子时" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="国际原子时"><span class="header-section-number">1.1</span> 国际原子时</h2>
+<p>如果规定地球自转一周的时间为一天，那么一天二十四小时，一小时六十分钟，一分钟六十秒，就可以定义一秒的长度。但是观测发现地球自转一周的时间是缓慢变化的，所以这样定义时间是不准确的。目前规定，将铯-133 原子不受扰动的基态超精细能级跃迁频率 <span class="math inline">\(\Delta ν_{Cs}\)</span> 的值固定为9192631770赫兹，赫兹等于 <span class="math inline">\(s^{−1}\)</span> 。我们可以认为这样规定的秒的时间跨度是绝对的，不会变化的。</p>
+<p>那么有了单位时间的长度，只需要选择一个起始时间，就可以定义一种对时间的度量方式。这就是国际原子时，简称 TAI。</p>
+</section>
+<section id="世界时" class="level2 page-columns page-full" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="世界时"><span class="header-section-number">1.2</span> 世界时</h2>
+<div class="page-columns page-full"><p>格林威治时间，简称为 GMT，是指英国格林威治天文台当地的平太阳时。它大概是规定太阳连续两次经过头顶的时间间隔是一天<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。只需要知道由于地球自转的不规则，格林威治时间的单位时间是缓慢变化的。有的格林威治时间观测以正午为一天的起始，所以规定以午夜为一天起始的格林威治时间为世界时，简称 UT，现行的标准为 UT1<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>。</p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;注意这里用来“大概”这个词，实际上这里的表述是不准确也不具体的。平太阳时的准确定义是一个比较复杂的概念，我们并不需要准确了解，具体的内容可以参考天文学上关于平太阳和真太阳的一些定义。</p></li><li id="fn2"><p><sup>2</sup>&nbsp;在 UT1 之前还有过 UT0，UT1 纠正了 UT0 的一些错误。UT1 之后还有一些标准，这些标准是为了克服上面提到过的时间单位缓慢变化的问题。但是这些标准都以失败告终。</p></li></div></div>
+</section>
+<section id="协调世界时" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="协调世界时"><span class="header-section-number">1.3</span> 协调世界时</h2>
+<p>国际原子时的优势在于绝对的准确，而世界时的好处在于它更符合人们的生活习惯，比如中午十二点习惯上就应该差不多是太阳最高的时刻，但是原子时保证不了这一点。</p>
+<p>一个折衷的处理办法是使用协调世界时，简称 UTC，这也使世界上最主要的时间标准。UTC 规定秒为国际原子时的一秒，所以长度是固定的。同时UTC规定一天是 24 小时，一小时是 60 分钟，一分钟通常是 60 秒，也有可能是 59 或 61 秒。这种偏差称为闰秒（leap second)。这是为了使 UTC 更接近 UT1，闰秒的出现使得 UTC 和 UT1 的差距不超过 0.9 秒。由于地球自转时长无法预测，闰秒的出现也无法预测。国际地球自转服务组织 (IERS) 负责确定何时引入闰秒并提前公布。</p>
 
 
 <!-- -->
+
+</section>
 
 
 </main> <!-- /main -->
@@ -419,17 +444,40 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../basic/time.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">计时</span></span>
+      <a href="../basic/index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">基础知识</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../SAR/imaging_system.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">成像系统</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../SAR/index.html" class="pagination-link">
+        <span class="nav-page-text">SAR 成像系统</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># SAR 成像系统</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># 计时</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>这里介绍了时间标准。</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## 国际原子时</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>如果规定地球自转一周的时间为一天，那么一天二十四小时，一小时六十分钟，一分钟六十秒，就可以定义一秒的长度。但是观测发现地球自转一周的时间是缓慢变化的，所以这样定义时间是不准确的。目前规定，将铯-133 原子不受扰动的基态超精细能级跃迁频率 $\Delta ν_{Cs}$ 的值固定为9192631770赫兹，赫兹等于 $s^{−1}$ 。我们可以认为这样规定的秒的时间跨度是绝对的，不会变化的。</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>那么有了单位时间的长度，只需要选择一个起始时间，就可以定义一种对时间的度量方式。这就是国际原子时，简称 TAI。</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">## 世界时</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>格林威治时间，简称为 GMT，是指英国格林威治天文台当地的平太阳时。它大概是规定太阳连续两次经过头顶的时间间隔是一天<span class="ot">[^1]</span>。只需要知道由于地球自转的不规则，格林威治时间的单位时间是缓慢变化的。有的格林威治时间观测以正午为一天的起始，所以规定以午夜为一天起始的格林威治时间为世界时，简称 UT，现行的标准为 UT1<span class="ot">[^2]</span>。</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ot">[^1]: </span>注意这里用来“大概”这个词，实际上这里的表述是不准确也不具体的。平太阳时的准确定义是一个比较复杂的概念，我们并不需要准确了解，具体的内容可以参考天文学上关于平太阳和真太阳的一些定义。</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ot">[^2]: </span>在 UT1 之前还有过 UT0，UT1 纠正了 UT0 的一些错误。UT1 之后还有一些标准，这些标准是为了克服上面提到过的时间单位缓慢变化的问题。但是这些标准都以失败告终。</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">## 协调世界时</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>国际原子时的优势在于绝对的准确，而世界时的好处在于它更符合人们的生活习惯，比如中午十二点习惯上就应该差不多是太阳最高的时刻，但是原子时保证不了这一点。</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>一个折衷的处理办法是使用协调世界时，简称 UTC，这也使世界上最主要的时间标准。UTC 规定秒为国际原子时的一秒，所以长度是固定的。同时UTC规定一天是 24 小时，一小时是 60 分钟，一分钟通常是 60 秒，也有可能是 59 或 61 秒。这种偏差称为闰秒（leap second)。这是为了使 UTC 更接近 UT1，闰秒的出现使得 UTC 和 UT1 的差距不超过 0.9 秒。由于地球自转时长无法预测，闰秒的出现也无法预测。国际地球自转服务组织 (IERS) 负责确定何时引入闰秒并提前公布。</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
