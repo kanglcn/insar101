@@ -1,0 +1,20 @@
+on: 
+  push:
+    branches: gh-pages
+
+jobs:
+  deploy_job:
+    runs-on: ubuntu-latest
+    name: sftp to SMU
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: deploy file
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: ${{ secrets.SMU_HOST_USER}}
+          server: ${{ secrets.SMU_HOSTNAME }} 
+          ssh_private_key: ${{ secrets.SMU_HOST_PASSWORD }} 
+          local_path: './*'
+          remote_path: '/users/pubhtml/other/kangl/public_html/insar101'
+          sftpArgs: '-o ConnectTimeout=5'
