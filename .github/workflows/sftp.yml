@@ -1,4 +1,5 @@
-on: 
+on:
+  workflow_dispatch:
   page_build:
 
 jobs:
