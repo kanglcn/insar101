@@ -1,6 +1,5 @@
 on: 
-  push:
-    branches: gh-pages
+  page_build
 
 jobs:
   deploy_job:
@@ -9,6 +8,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          ref: 'gh-pages'
       - name: deploy file
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
