@@ -1,5 +1,5 @@
 on: 
-  page_build
+  page_build:
 
 jobs:
   deploy_job:
