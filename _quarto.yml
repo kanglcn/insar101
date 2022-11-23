@@ -4,7 +4,6 @@ project:
 book:
   title: "InSAR 笔记"
   author: "Kang Liang"
-  logo: cover.png
 
   chapters:
     - index.qmd
@@ -25,6 +24,8 @@ book:
 
   sidebar:
     border: true
+    logo: cover.png
+
   site-url: https://insarkl.com/insar101
   repo-url: https://github.com/kanglcn/insar101
   repo-actions: [edit, issue, source]
@@ -36,10 +37,10 @@ book:
   comments:
     giscus:
       repo: kanglcn/insar101
+
 bibliography: references.bib
 reference-location: margin
 citation-location: margin
-
 
 format:
   html:
