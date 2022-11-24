@@ -4,6 +4,7 @@ project:
 book:
   title: "InSAR 笔记"
   author: "Kang Liang"
+  favicon: cover.png
 
   chapters:
     - index.qmd
