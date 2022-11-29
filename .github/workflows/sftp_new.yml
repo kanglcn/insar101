@@ -1,0 +1,29 @@
+on:
+  workflow_dispatch:
+  page_build:
+
+name: SMU host
+jobs:
+  deploy_job:
+    runs-on: ubuntu-latest
+    name: sftp to SMU
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: 'gh-pages'
+
+      - name: FTP Deployer
+        uses: sand4rt/ftp-deployer@v1.5
+        with:
+          sftp: true # optional
+          host: ${{ secrets.SMU_HOSTNAME }} # e.g. ftp.host.com or sftp.host.com (without ftp:// or ftps://)
+          port: 21 # optional, default is: 21
+          username: ${{ secrets.SMU_HOST_USER }} # FTP username
+          password: ${{ secrets.SMU_HOST_PASSWORD }} # FTP password
+          remote_folder: '/users/pubhtml/other/kangl/public_html/insar101' # optional, remote path of your FTP server
+          local_folder: './*' # optional, local path, default is: dist
+          cleanup: false # optional, remove existing files inside FTP remote folder
+          include: '[]' # optional, e.g. '['dist']'
+          exclude: '[]' # optional, e.g. '['node_modules/**', '.git/**', '*.env']'
+          passive: true # optional
